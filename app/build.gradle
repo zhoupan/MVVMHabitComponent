@@ -17,10 +17,10 @@ android {
   }
   signingConfigs {
    release {
-    storeFile file('../android.keystore')
-    storePassword 'android'
-    keyAlias 'android'
-    keyPassword 'android'
+    storeFile keystore.storeFile
+    storePassword keystore.storePassword
+    keyAlias keystore.keyAlias
+    keyPassword keystore.keyPassword
    }
   }
   lintOptions {

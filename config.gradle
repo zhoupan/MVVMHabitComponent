@@ -9,6 +9,13 @@ ext {
   versionCode      : 1,
   versionName      : "1.0",
  ]
+ //keystore
+ keystore = [
+  storeFile    : new File(this.getRootProject().getRootDir(), 'android.keystore'),
+  storePassword: 'android',
+  keyAlias     : 'android',
+  keyPassword  : 'android',
+ ]
  //version配置
  versions = [
   "support-version": "27.0.2",
