@@ -33,6 +33,9 @@ ext {
   //阿里路由框架
   "arouter-api"     : "com.alibaba:arouter-api:1.4.1",
   "arouter-compiler": "com.alibaba:arouter-compiler:1.2.2",
+  //dagger
+  "dagger"          : "com.google.dagger:dagger:2.24",
+  "dagger-compiler" : "com.google.dagger:dagger-compiler:2.24",
  ]
 }
 
