@@ -7,6 +7,7 @@ package com.goldze.base.router;
  */
 
 public class RouterFragmentPath {
+
     /**
      * 首页组件
      */
